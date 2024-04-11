@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tajawal;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f7f2f2;
+}
+
+ul {list-style-type: none;}
+a {text-decoration: none;}
+
+header{
+    height: 50vh;
+    background: url(../img/pexels-photo-8669944.jpg) fixed center no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.473);
+}
+
+header .contant{
+    margin: auto;
+}
+
+header h1{
+    padding: 160px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #eee;
+}
+
+/* **************** */
+.section-article h2{
+    text-align: center;
+    margin: 40px 0px 0px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.section-article h2::before{
+    content: "";
+    position: absolute;
+    left: 44%;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #487eb0;
+}
+
+.section-article h2:hover::before{
+    width: 80px;
+    transition: 0.7s;
+}
+article{
+    text-align: right;
+    direction: rtl;
+    width: 1330px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #faf8f8;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.178);
+    transition: 0.6s;
+}
+
+article:hover{
+    height: 310px;
+    width: 1335px;
+    border-radius: 0.1px;
+    transition: 0.6s;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.267);
+}
+
+article h3{
+    padding-top: 30px;
+    margin-right: 40px;
+    color: #487eb0;
+}
+
+.one{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #24262b;
+    padding: 70px 0px;
+}
+
+footer .contanir{
+    max-width: 1170px;
+    margin: auto;
+}
+
+footer .contanir .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+
+.footer-col h4{
+    color: #eee;
+    position: relative;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 40px;
+    background-color: #273c75;
+    border-radius: 20px;
+}
+
+.footer-col ul li p{
+    color: #e9dada;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.footer-col li a{
+    color: #e9dada;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer-col li a:hover{
+    color: #eee;
+    text-decoration: 1px underline #4072a0;
+    transition: 0.3s;
+}
+
+.footer-col .soical-links a{
+    color: #eee;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255,255,255,0.2);
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+    line-height: 42px;
+    border-radius: 60px;
+}
+
+.footer-col .soical-links a:hover{
+    color: #eee;
+    background-color: #4072a0;
+    transition: 1s;
+    transform: scale(1.1);
+}

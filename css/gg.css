@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tajawal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(315deg,#ffffff 0%,#e2e7ec 74%);
+}
+
+form{
+    padding: 60px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.178);    
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+input,textarea{
+    direction: rtl;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+input:hover,textarea:hover{
+    border-bottom: 2px solid rgb(169, 169, 224);
+    transition: 0.5s;
+}
+
+input:focus,textarea:focus{
+    border-bottom: 2px solid rgb(169, 169, 224);
+    transition: 0.5s;
+}
+
+.comments{
+    width: 100%;
+}
+
+#submit{
+    width: 30%;
+    color: white;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#submit:hover{
+    letter-spacing: 1.5px;
+    transition: 1s;
+}
