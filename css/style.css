@@ -152,7 +152,7 @@ header {
             flex-direction: column;
             align-items: flex-end;
             justify-content: center;
-            background: #eeeeeefb;
+            background: #eee;
             backdrop-filter: blur(10px);
             z-index: 100;
         }
